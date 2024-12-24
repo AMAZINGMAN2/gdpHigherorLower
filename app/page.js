@@ -31,8 +31,8 @@ export default function Home() {
     if (gameOver) return;
 
     const isCorrect =
-      (isHigher && nextCountry.gdp > currentCountry.gdp) ||
-      (!isHigher && nextCountry.gdp < currentCountry.gdp);
+      (isHigher && nextCountry.gdp >= currentCountry.gdp) ||
+      (!isHigher && nextCountry.gdp <= currentCountry.gdp);
 
     if (isCorrect) {
       setScore(score + 1);
