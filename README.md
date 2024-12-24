@@ -1,6 +1,6 @@
 # Higher or Lower Country GDP Game
 
-Welcome to the **Higher or Lower Country GDP** game! You can Play this game by going to [https://higherorlowergdp.pages.dev](https://higherorlowergdp.pages.dev) This is a fun web app where users guess whether the GDP of the next country is higher or lower than the current one. It’s built using **Next.js 14** and hosted on **Cloudflare**.
+Welcome to the **Higher or Lower Country GDP** game! You can Play this game by going to [https://gdphigherorlower.pages.dev](https://gdphigherorlowergdp.pages.dev) This is a fun web app where users guess whether the GDP of the next country is higher or lower than the current one. It’s built using **Next.js 14** and hosted on **Cloudflare**.
 
 ## Features
 
