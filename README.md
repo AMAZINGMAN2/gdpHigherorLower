@@ -1,6 +1,6 @@
-# Higher or Lower Country Population Game
+# Higher or Lower Country GDP Game
 
-Welcome to the **Higher or Lower Country Landmass** game! You can Play this game by going to [https://higherorlowerlandmass.pages.dev](https://higherorlowerlandmass.pages.dev) This is a fun web app where users guess whether the population of the next country is higher or lower than the current one. It’s built using **Next.js 14** and hosted on **Cloudflare**.
+Welcome to the **Higher or Lower Country GDP** game! You can Play this game by going to [https://higherorlowergdp.pages.dev](https://higherorlowergdp.pages.dev) This is a fun web app where users guess whether the GDP of the next country is higher or lower than the current one. It’s built using **Next.js 14** and hosted on **Cloudflare**.
 
 ## Features
 
@@ -29,8 +29,8 @@ Make sure you have the following installed on your local machine:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/AMAZINGMAN2/LandMassHigherOrLower.git
-   cd HigherOrLower
+   git clone https://github.com/AMAZINGMAN2/gdpHigherOrLower.git
+   cd gdpHigherOrLower
    ```
 
 2. Install dependencies:
@@ -70,14 +70,14 @@ Once you're ready to deploy the app, you can host it on Cloudflare's Pages platf
 
 ## How It Works
 
-1. The user is presented with a country and its population.
-2. They must guess if the next country's population is higher or lower.
+1. The user is presented with a country and its GDP.
+2. They must guess if the next country's GPD is higher or lower.
 3. Correct guesses will add points to their score; incorrect guesses will end the game.
 4. The game progresses by picking random countries from a pre-defined list of country populations (no external API used).
 
 ## Data
 
-The country population data is stored locally in the app
+The country GDP data is stored locally in the app
 
 
 ## Contributing
